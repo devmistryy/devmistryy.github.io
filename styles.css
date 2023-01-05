@@ -1,0 +1,408 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #bcdeff;
+  margin: 0px;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  flex-direction: horizontal;
+  display: flex;
+}
+
+.menu a {
+  font: menu;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  float: left;
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 16px 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.menu a:hover {
+  top: 50%;
+  background: rgb(255, 255, 255);
+  color: black;
+  border-radius: 15px;
+  border: none;
+}
+
+#youtube_logo {
+  height: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#linkedin_logo {
+  height: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#github_logo {
+  height: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.firstImage {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+#intro {
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 2.5em;
+  top: 50%;
+  left: 50%;
+}
+
+#name {
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 4em;
+  font-family: "Rock Salt", cursive;
+}
+.sectionTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  color: rgb(7, 7, 79);
+  margin: 0%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+#AboutMe {
+  display: flex;
+  flex-direction: horizontal;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background: rgb(224, 98, 250);
+  background: linear-gradient(
+    0deg,
+    rgba(224, 98, 250, 1) 0%,
+    rgba(250, 119, 125, 1) 100%
+  );
+}
+
+#center {
+  width: 925px;
+}
+
+#aboutmeparagraph {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#me_taking_a_picture {
+  width: 300px;
+}
+
+#been_chilling {
+  width: 300px;
+}
+
+#Projects {
+  background: rgb(250, 219, 98);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 219, 98, 1) 0%,
+    rgba(119, 250, 159, 1) 100%
+  );
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 3%;
+}
+
+#row1 {
+  display: flex;
+  flex-direction: horizontal;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#WebsiteSection {
+  width: 35vw;
+  margin-bottom: 0%;
+}
+
+#WebsiteParagraph {
+  font-family: "Poppins", sans-serif;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#WebsiteTitle {
+  font-size: 40px;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+#website_icon {
+  width: 15vw;
+}
+
+#CutieCalculatorSection {
+  width: 35vw;
+  margin-bottom: 0%;
+}
+
+#CutieCalculatorTitle {
+  font-size: 40px;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#CutieCalculatorParagraph {
+  font-family: "Poppins", sans-serif;
+  margin-right: 3%;
+  margin-left: 4%;
+}
+
+#orange {
+  width: 15vw;
+}
+
+#ShortFilms {
+  background: rgb(66, 216, 249);
+  background: linear-gradient(
+    0deg,
+    rgba(66, 216, 249, 1) 0%,
+    rgba(66, 126, 249, 1) 100%
+  );
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#firstRow {
+  display: flex;
+  flex-direction: horizontal;
+  margin: 2%;
+}
+
+#mylens_title {
+  font-size: 70px;
+  font-family: "ArgonPersonal";
+  margin-top: 2%;
+  margin-left: 38%;
+  margin-bottom: 0%;
+}
+
+#mylens_thumbnail {
+  width: 500px;
+  margin-left: 2%;
+}
+
+#mylens_paragraph {
+  font-family: "Poppins", sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+#secondRow {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+#personalportrait_thumbnail {
+  width: 500px;
+  margin-right: 0%;
+}
+
+#rightside {
+  margin-right: 2%;
+}
+
+#personalportrait_title {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 20%;
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+
+#personalportrait_paragraph {
+  font-family: "Poppins", sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+#thirdRow {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+#assassin_thumbnail {
+  width: 500px;
+  margin-left: 8%;
+}
+
+#assassin_title {
+  font-size: 60px;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  margin-top: 4%;
+  font-family: The Macabre;
+  letter-spacing: 0.05em;
+}
+
+#assassin_paragraph {
+  font-family: "Poppins", sans-serif;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#fourthRow {
+  margin-top: 20%;
+}
+
+#PhotographyTitle {
+  background: rgb(4, 255, 216);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 255, 216, 1) 0%,
+    rgba(66, 216, 249, 1) 100%
+  );
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.gallery {
+  display: grid;
+  margin: 0%;
+  grid-template-columns: repeat(99, 1fr);
+  grid-template-rows: repeat(34, 3vw);
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hollywood_hills_viewpoint {
+  grid-row: 1/11;
+  grid-column: 1/40;
+}
+
+#yang_chow {
+  grid-row: 1/9;
+  grid-column: 40/80;
+}
+#weeknd_concert_red_moon {
+  grid-row: 1/12;
+  grid-column: 80/100;
+}
+#red_flower {
+  grid-row: 9/20;
+  grid-column: 40/60;
+}
+#pink_cloud {
+  grid-row: 9/20;
+  grid-column: 60/80;
+}
+
+#dressed_up {
+  grid-row: 12/16;
+  grid-column: 80/100;
+}
+
+#santa_monica_sunset {
+  grid-row: 20/30;
+  grid-column: 55/100;
+}
+
+#prom_2022 {
+  grid-row: 16/20;
+  grid-column: 80/100;
+}
+
+#weeknd_concert_blue {
+  grid-row: 11/17;
+  grid-column: 15/40;
+}
+#lakers {
+  grid-row: 11/18;
+  grid-column: 1/15;
+}
+#bird_on_trash {
+  grid-row: 18/25;
+  grid-column: 1/15;
+}
+#beach {
+  grid-row: 17/ 23;
+  grid-column: 15/40;
+}
+
+#test {
+  grid-row: 20/28;
+  grid-column: 40/55;
+}
+#tunnel_art {
+  grid-row: 23/28;
+  grid-column: 15/40;
+}
+#faded_film_pic {
+  grid-row: 25/28;
+  grid-column: 1/15;
+}
+#eating_cake {
+  grid-row: 28/35;
+  grid-column: 1/28;
+}
+#dragonfly {
+  grid-row: 28/35;
+  grid-column: 28/55;
+}
+#the_boys {
+  grid-row: 30/35;
+  grid-column: 55/70;
+}
+#brown_boys {
+  grid-row: 30/35;
+  grid-column: 70/85;
+}
+#swing_friends {
+  grid-row: 30/35;
+  grid-column: 85/100;
+}
+
+@font-face {
+  font-family: ArgonPersonal;
+  src: url(ArgonPERSONAL-Regular.otf);
+}
+
+@font-face {
+  font-family: The Macabre;
+  src: url(TheMacabre.otf);
+}
