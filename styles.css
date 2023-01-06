@@ -16,6 +16,7 @@ body {
   top: 0px;
   flex-direction: horizontal;
   display: flex;
+  z-index: 10;
 }
 
 .menu a {
@@ -78,6 +79,7 @@ body {
   font-size: 2.5em;
   top: 50%;
   left: 50%;
+  z-index: 1;
 }
 
 #name {
@@ -88,6 +90,7 @@ body {
   left: 50%;
   font-size: 4em;
   font-family: "Rock Salt", cursive;
+  z-index: 2;
 }
 .sectionTitle {
   font-family: "Josefin Sans", sans-serif;
